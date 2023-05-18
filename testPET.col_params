@@ -1,0 +1,25 @@
+##############################################################
+#
+#     PARAMETER FILE FOR THE SIMPLE PET
+#     COLLIMATOR MODULE
+#
+#     RUN NAME:     
+#     CREATED:
+#     OWNER:
+#
+#
+#     This is a sample parameter file that you may copy to 
+#     your working directory and use as a template for your 
+#     simulations.
+#
+#
+#     This parameter file specifies the simple PET 
+#     collimator parameters for a PVI (3D-PET) camera with 
+#     infinitely thin, infinitely absorbing end-plates.
+#
+###############################################################
+
+
+INT        collimator_type = 1
+REAL    collimator_depth = 2.0
+STR        history_file = "col_history"
