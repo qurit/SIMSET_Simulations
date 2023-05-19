@@ -9,7 +9,7 @@
 ########################################################################
 
 # RUNTIME OPTIONS
-INT     num_to_simulate                 = 300000000
+INT     num_to_simulate                 = 30000000
 REAL    length_of_scan                  = 1.0
 BOOL    simulate_SPECT                  = false
 BOOL    simulate_PET_coincidences_only  = true

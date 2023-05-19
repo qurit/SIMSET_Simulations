@@ -11,6 +11,7 @@ do
   sleep 5
   sed -i "s/sinogram${i}.hst/FILENAMEWEIGHT/" testPET.bin_params
 done
+wait
 
 # Move output to corresponding folder
 mkdir ${savedir}
